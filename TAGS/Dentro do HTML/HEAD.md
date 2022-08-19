@@ -2,16 +2,16 @@
 
 Created: July 25, 2022 3:39 PM
 
-- <meta>
+- `<meta>`
     - [https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/meta](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/meta)
     - O elemento **HTML `<meta>`** define qualquer informação de metadados que não podem ser definidos por outros elementos **HTML**
-    - <meta charset=”UTF-8”>
+    - `<meta charset=”UTF-8”>`
         - Seta os caracteres
             - Aconselhável usar o UTF-8 (representa qualquer caractere universal)
     
     ---
     
-    - <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+    - `<meta name=”viewport” content=”width=device-width, initial-scale=1.0”>`
         - name=”viewport”
             - o viewport é usado para a parte visual da web página
         
@@ -54,8 +54,8 @@ Created: July 25, 2022 3:39 PM
 
 ---
 
-- <link>
-    - <link rel="stylesheet" text="text/css" href="style.css">
+- `<link>`
+    - `<link rel="stylesheet" text="text/css" href="style.css">`
         - **rel** vem de relationship serve para você dizer qual o relacionamento do arquivo que você quer utilizar com o arquivo atual
             - Quando você coloca **rel**="**stylesheet**" , você está dizendo que o arquivo importado é o arquivo responsável pelo estilo da sua página
             - style == estilo
@@ -66,5 +66,5 @@ Created: July 25, 2022 3:39 PM
         
         - text diz que é um texto do tipo css
             - href vai linkar para um diretório
-    - <link rel="icon" href="diretorio">
+    - `<link rel="icon" href="diretorio">`
         - FavoriteIcon
