@@ -4,30 +4,30 @@ Created: July 25, 2022 3:40 PM
 
 ### **Tags**
 
-- <script src="ijs.js"></script>
+- `<script src="ijs.js"></script>`
     - normalmente usado no fim do body
     - **Src** significa "source" [fonte]
 
 ---
 
-- <li>
+- `<li>`
     - Cria uma lista com Default bulletpoint
 
 ---
 
 - Lista Ordenada e não ordenada
-    - <ol>
+    - `<ol>`
         - Ordenada
-    - <ul>
+    - `<ul>`
         - não ordenada
 
 ---
 
 - Citação
-    - **<blockquote>**
-        - O Elemento HTML <blockquote> (ou Elemento HTML de citação de bloco) indica que o texto incluído é uma longa citação. Normalmente, este é processado visualmente pelo recuo (ver [Notas](https://developer.mozilla.org/en-US/docs/HTML/Element/blockquote#Notes) sobre como mudá-lo). A URL para a fonte da citação pode ser dada usando o atributo **cite**, enquanto uma representação de texto da fonte pode ser dada usando o `[<cite>](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/cite)` elemento.
-    - <cite>
-        - O **elemento** **HTML <cite>** representa uma referência a um trabalho artístico. Deve incluir o título do trabalho ou uma URL de referência, que pode ser em uma forma abreviada de acordo com as convenções usadas para a adição dos metadados de citação.
+    - **`<blockquote>`**
+        - O Elemento HTML `<blockquote>` (ou Elemento HTML de citação de bloco) indica que o texto incluído é uma longa citação. Normalmente, este é processado visualmente pelo recuo (ver [Notas](https://developer.mozilla.org/en-US/docs/HTML/Element/blockquote#Notes) sobre como mudá-lo). A URL para a fonte da citação pode ser dada usando o atributo **cite**, enquanto uma representação de texto da fonte pode ser dada usando o `[<cite>](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/cite)` elemento.
+    - `<cite>`
+        - O **elemento** **HTML `<cite>`** representa uma referência a um trabalho artístico. Deve incluir o título do trabalho ou uma URL de referência, que pode ser em uma forma abreviada de acordo com as convenções usadas para a adição dos metadados de citação.
     
     ```jsx
     <blockquote>
@@ -35,15 +35,15 @@ Created: July 25, 2022 3:40 PM
     </blockquote>
     ```
     
-    - <q>
-        - O elemento HTML <q> indica que o texto dentro da tag é uma pequena
+    - `<q>`
+        - O elemento HTML `<q>` indica que o texto dentro da tag é uma pequena
          citação. Este elemento destina-se a citações curtas que não requerem 
         marcações de parágrafo; para citações maiores use o elemento `[<blockquote>](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote)`
         .
 
 ---
 
-- <abbr>
+- `<abbr>`
     - abreviação
     - é usanda quando o mouse é descansado
     
@@ -54,25 +54,25 @@ Created: July 25, 2022 3:40 PM
 
 ---
 
-- <address>
+- `<address>`
     
-    É usada como uma <div>, porém ele é feita para deixar o contato do criador da página por exemplo
+    É usada como uma `<div>`, porém ele é feita para deixar o contato do criador da página por exemplo
     
 
 ---
 
-- <code>
-    - Uma <div> para explicar que é para códigos
+- `<code>`
+    - Uma `<div>` para explicar que é para códigos
 
 ---
 
-- <pre>
+- `<pre>`
     - Mantem a formatação que foi feita no arquivo, então espaços em brancos continuarão do jeito escrito
 
 ---
 
-- <a>
-    - <a href="#hungry" target=”_blank”>Redirecionamento em outra janela</a>
+- `<a>`
+    - `<a href="#hungry" target=”_blank”>Redirecionamento em outra janela</a>`
     
     ---
     
@@ -104,32 +104,32 @@ Created: July 25, 2022 3:40 PM
 
 ---
 
-- <tittle>
+- `<tittle>`
     - Ao descansar o mouse em cima da palavra ele irá escreve o que há dentro desse tag
 
 ---
 
-- <table>
+- `<table>`
     - Usada para a criação de uma tabela
-    - <tr>
+    - `<tr>`
         - TableRow
-    - <th>
+    - `<th>`
         - TableHead
             - Cabeçalho
-    - <td>
+    - `<td>`
         - conteúdo da linha
-    - <thead>
-        - como um <div>
+    - `<thead>`
+        - como um `<div>`
         - usado para englobar todo o cabeçalho
         - rowspan=”2”
             - ocupa 2 linha
         - colspan=”2”
             - ocupa 2 colunas
-    - <tbody>
-        - como um <div>
+    - `<tbody>`
+        - como um `<div>`
         - usado para englobar todo o corpo
-    - <colgroup>
-        - <col>
+    - `<colgroup>`
+        - `<col>`
             - se refere a coluna
         - span=”2”
             - diz q ela ocupa duas colunas
@@ -185,12 +185,12 @@ Created: July 25, 2022 3:40 PM
 
 ---
 
-- <em>
+- `<em>`
     - deixa em italianico
 
 ---
 
-- <form>
+- `<form>`
     - Formulário
     - <form> comumente tem dois atributos
         - não é possível fazer um <form> dentro de outro <form>
@@ -215,7 +215,7 @@ Created: July 25, 2022 3:40 PM
 
 ---
 
-- <fieldset>
+- `<fieldset>`
     - Não precisa estar dentro do formulário
     - Agrupamento de campos
     - Semântico
@@ -255,7 +255,7 @@ Created: July 25, 2022 3:40 PM
 
 ---
 
-- <label>
+- `<label>`
     - Acessibilidade
     - Associa e identifica um ou mais tags de ENTRADA DE DADOS como <input>
     - Ao clicar, ele leva direto para a entrada de dados
@@ -273,7 +273,7 @@ Created: July 25, 2022 3:40 PM
 
 ---
 
-- <button>
+- `<button>`
     
     <aside>
     💡 [https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/button#attr-type](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/button#attr-type)
@@ -296,7 +296,7 @@ Created: July 25, 2022 3:40 PM
 
 ---
 
-- <datalist>
+- `<datalist>`
     
     <aside>
     💡 [https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist)
@@ -306,7 +306,7 @@ Created: July 25, 2022 3:40 PM
 
 ---
 
-- <article>
+- `<article>`
     - **Representa uma composição independente** em um documento, página, aplicação, ou site, ou que é **destinado a ser distribuido de forma independente ou reutilizável.**
     - Por exemplo, em sindicação. Este poderia ser o post de um fórum, um artigo de revista ou jornal, um post de um blog, um comentário enviado por um usuário, um gadget ou widget interativos, ou qualquer outra forma de conteúdo independente.
     - Um grande conjunto onde normalmente se encontra um único ou um conjunto de texto
@@ -333,7 +333,7 @@ Created: July 25, 2022 3:40 PM
 
 ---
 
-- <section>
+- `<section>`
     - **Representa uma seção genérica** contida em um documento HTML, **geralmente com um título**, quando não existir um elemento semântico mais específico para representá-lo.
         - é comum sempre ter um título.
     - Por exemplo, um menu de navegação deve estar dentro um elemento `[<nav>](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/nav)`
@@ -341,7 +341,7 @@ Created: July 25, 2022 3:40 PM
 
 ---
 
-- <input>
+- `<input>`
     
     <aside>
     💡 [https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
@@ -479,7 +479,7 @@ Created: July 25, 2022 3:40 PM
 
 ---
 
-- Exemplo de um <body> bem feito
+- Exemplo de um `<body>` bem feito
     
     ```jsx
     <body>
